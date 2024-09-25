@@ -1,7 +1,31 @@
 body{
     background-color: bisque;
     font-family: sans-serif;
+    color: darkred;
 }
+
 .current{
     color:red;
+}
+
+a{
+    text-decoration: none;
+    background-color: white;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.5rem 0.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.95rem #00000088;
+}
+
+a:hover{
+    background-color: goldenrod;
+    box-shadow: 0.5rem 0.5rem 0.95rem #000000ff;
+}
+
+.fun
+{
+    width: 100%;
+    border-radius: 3rem;
+    box-shadow: 0.5rem 0.5rem 0.95rem;
 }
